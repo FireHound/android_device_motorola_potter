@@ -27,7 +27,7 @@
 
         <SwitchPreference
             android:key="fp_haptic"
-            android:defaultValue="0"
+            android:defaultValue="1"
             android:title="@string/haptic_feedback"
             android:summary="@string/haptic_feedback_summary" />
 
@@ -36,7 +36,7 @@
             android:summary="%s"
             android:dialogTitle="@string/fingerprint_tap_dlg_title"
             android:key="fp_keys"
-            android:defaultValue="0"
+            android:defaultValue="1"
             android:entries="@array/fp_keys_listArray"
             android:entryValues="@array/fp_keys_listValues" />
 
@@ -54,7 +54,7 @@
             android:summary="%s"
             android:dialogTitle="@string/fingerprint_long_tap_dlg_title"
             android:key="fp_key_hold"
-            android:defaultValue="0"
+            android:defaultValue="2"
             android:entries="@array/fp_keys_listArray"
             android:entryValues="@array/fp_keys_listValues" />
 
@@ -63,7 +63,7 @@
             android:summary="%s"
             android:dialogTitle="@string/fingerprint_swipe_left_dlg_title"
             android:key="fp_key_left"
-            android:defaultValue="0"
+            android:defaultValue="3"
             android:entries="@array/fp_keys_listArray"
             android:entryValues="@array/fp_keys_listValues" />
 
@@ -72,7 +72,7 @@
             android:summary="%s"
             android:dialogTitle="@string/fingerprint_swipe_right_dlg_title"
             android:key="fp_key_right"
-            android:defaultValue="0"
+            android:defaultValue="4"
             android:entries="@array/fp_keys_listArray"
             android:entryValues="@array/fp_keys_listValues" />
     </PreferenceCategory>
