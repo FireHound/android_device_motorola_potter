@@ -1,8 +1,8 @@
 [
   {
-    "repository":  "boulzordev/android_kernel_motorola_msm8953",
+    "repository":  "Martichou/potter",
     "target_path": "kernel/motorola/msm8953",
-    "branch":      "lineage-15.1-64"
+    "branch":      "eas_no-treble"
   },
   {
     "repository":  "boulzordev/android_vendor_motorola_potter",
